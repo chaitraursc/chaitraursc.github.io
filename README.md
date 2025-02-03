@@ -1,2 +1,2 @@
 # chaitraursc.github.io
-Learnable 
+A common repository for submitting coursera assignments
