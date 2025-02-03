@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+#htmlEvolution {
+  float: right;
+  height: 700px;
+  width: 450px;
+}
+
+#htmlElement {
+  height: 250px;
+  width: 450px;
+}
+
+h3,
+th {
+  color: orangered;
+}

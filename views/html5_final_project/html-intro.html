@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Coursera HTML5 Assignment</title>
+    <!-- Favicon link -->
+    <link
+      rel="icon"
+      href="../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <header class="main header">
+      <h1>Coursera HTML5 Assignment</h1>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="#html-intro">HTML Introduction</a></li>
+          <li>
+            <a href="#html-basic-doc-structure">HTML Document Structure</a>
+          </li>
+          <li><a href="#html-elemnt-anotomy">HTML Element</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <article id="html-intro">
+      <img
+        src="../../assets/images/HTML_evolution.png"
+        alt="Evolution of HTML"
+        id="htmlEvolution"
+      />
+      <h2>Introduction to HTML</h2>
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for Hypertext Markup Language which is a standard language
+        used for creating web pages.<br />
+        It defines the structure of the content and tells the browser what
+        content to show and how to organize it.<br />
+        In short, HTML is the backbone of a webpage without which the browser
+        would not know how to display a page in a structured and readable
+        format.
+      </p>
+      <h3>The History of HTML</h3>
+      <p>
+        HTML was first developed by <strong>Tim Berners-Lee</strong> in 1991
+        while he was working at CERN (the European Organization for Nuclear
+        Research). <br />His aim was to create a system to easily share
+        documents over the internet, which led to the creation of the World Wide
+        Web.
+      </p>
+      <p>
+        The first version of HTML had just 18 tags, and its main purpose was to
+        allow researchers to publish and link academic papers.
+        <br />Over the years, HTML has evolved significantly, with new versions
+        being introduced to address the growing needs of web developers and
+        users.
+      </p>
+      <p>
+        For those eager to dive deeper into the history of HTML, the page
+        available
+        <a
+          href="https://www.w3.org/People/Raggett/book4/ch02.html"
+          target="_blank"
+          >here</a
+        >
+        provides an insightful exploration of its development and evolution.
+      </p>
+
+      <h3>HTML Versions</h3>
+      <p>HTML has gone through several versions:</p>
+      <ul>
+        <li>
+          <strong>HTML 1.0</strong> (1991): The first version with 18 elements,
+          mainly used for academic documents.
+        </li>
+        <li>
+          <strong>HTML 2.0</strong> (1995): Standardized the basic structure of
+          HTML, including forms and tables.
+        </li>
+        <li>
+          <strong>HTML 3.2</strong> (1997): Introduced more complex elements
+          such as tables and scripting support.
+        </li>
+        <li>
+          <strong>HTML 4.01</strong> (1999): Focused on separating content
+          (HTML) from presentation (CSS) and functionality (JavaScript).
+        </li>
+        <li>
+          <strong>HTML5</strong> (2014): The current standard, introducing
+          multimedia support (audio, video), new semantic elements (like
+          <code>&lt;article&gt;, &lt;section&gt;</code>), <br />and improved
+          performance for modern web apps.
+        </li>
+      </ul>
+      <h3>Role of HTML in Web Development</h3>
+      <p>
+        In modern web development, <strong>HTML</strong> is often used in
+        conjunction with other technologies such as:
+      </p>
+      <ul>
+        <li>
+          <strong>CSS</strong>: Defines the layout and appearance (e.g., colors,
+          fonts, and spacing) of HTML elements.
+        </li>
+        <li>
+          <strong>JavaScript</strong>: Adds interactivity, animations, and
+          dynamic content to web pages.
+        </li>
+      </ul>
+    </article>
+    <br />
+    <hr />
+    <article id="html-basic-doc-structure">
+      <h2>Basic HTML Document Structure</h2>
+      <p>
+        A basic HTML document consists of several essential elements. Below is
+        an example of a simple HTML document structure:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Basic HTML Document</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="../../assets/images/structure.png"
+                alt="Diagram of basic HTML document structure"
+              />
+            </td>
+            <td>
+              <ul>
+                <li>
+                  <strong>&lt;!doctype html&gt;</strong>: Declares the document
+                  type and version of HTML (HTML5 in this case). This helps the
+                  browser interpret the document correctly.
+                </li>
+                <li>
+                  <strong>&lt;html lang="en-US"&gt;</strong>: The root element
+                  that wraps all the content on the page. The
+                  <code>lang="en-US"</code> attribute specifies that the
+                  document is in English (US).
+                </li>
+                <li>
+                  <strong>&lt;head&gt;</strong>: The head section contains
+                  meta-information about the document (like character encoding
+                  and the title).
+                </li>
+                <li>
+                  <strong>&lt;meta charset="utf-8" /&gt;</strong>: Sets the
+                  character encoding for the document to UTF-8, ensuring proper
+                  rendering of characters.
+                </li>
+                <li>
+                  <strong>&lt;title&gt;My test page&lt;/title&gt;</strong>: The
+                  title tag defines the name that will appear in the browser tab
+                  when the page is open.
+                </li>
+                <li>
+                  <strong>&lt;body&gt;</strong>: The body section contains the
+                  content of the webpage, such as text, images, and links. This
+                  is what the user sees when they visit the page.
+                </li>
+                <li>
+                  <strong>&lt;p&gt;This is my page&lt;/p&gt;</strong>: This is a
+                  paragraph of text that will appear on the webpage.
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <hr />
+    <article id="html-elemnt-anotomy">
+      <h2>Anatomy of an HTML Element</h2>
+      <p>An HTML element typically consists of the following parts:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>HTML Element</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="../../assets/images/html_element.png"
+                alt="Illustration of the anatomy of an HTML element"
+                id="htmlElement"
+              />
+            </td>
+            <td>
+              <ul>
+                <li>
+                  <strong>&lt;p1&gt;</strong>: The opening tag that marks the
+                  beginning of an element. In this case, it starts a paragraph
+                  element.
+                </li>
+                <li>
+                  <strong>content</strong>: The text or other content placed
+                  between the opening and closing tags.
+                </li>
+                <li>
+                  <strong>&lt;/p1&gt;</strong>: The closing tag that marks the
+                  end of an element. In this case, it ends a paragraph element.
+                </li>
+                <li>
+                  <strong>class="text"</strong>: Attributes provide additional
+                  information about the element. Here, the
+                  <strong>class</strong> attribute assigns a class called
+                  <strong>"text"</strong> to the &lt;p&gt; tag, <br />which can
+                  be targeted for styling or scripting.
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </body>
+</html>
