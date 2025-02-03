@@ -14,7 +14,11 @@ h1 {
   width: 450px;
 }
 
-h3,
+h3 {
+  color: orangered;
+}
+
 th {
   color: orangered;
+  font-size: large;
 }
